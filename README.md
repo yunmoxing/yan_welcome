@@ -1,5 +1,9 @@
 # 🌟 Welcome to Yunmo World
 
+<div align="center">
+
+![Welcome Banner](https://via.placeholder.com/800x50/2d2d2d/ffffff?text=✱+Welcome+to+Yunmo+World)
+
 ```
 ██    ██ ██    ██ ███    ██ ███    ███  ██████
  ██  ██  ██    ██ ████   ██ ████  ████ ██    ██
@@ -14,6 +18,8 @@
  ███ ███   ██████  ██   ██ ███████ ██████
 ```
 
+</div>
+
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version">
@@ -23,8 +29,15 @@
 ## 🌊 Dive into the Ocean of Possibilities
 
 <div align="center">
-  <h3>🎯 Yunmo World - Where Dreams Meet Reality</h3>
-  <p><em>Step into a realm of endless possibilities</em></p>
+
+![Divider](https://via.placeholder.com/600x3/3b82f6/3b82f6)
+
+### 🎯 Yunmo World - Where Dreams Meet Reality
+
+*Step into a realm of endless possibilities*
+
+![Divider](https://via.placeholder.com/600x3/3b82f6/3b82f6)
+
 </div>
 
 ---
@@ -60,13 +73,13 @@ Building bridges between ideas and reality through teamwork and shared vision
 
 <div align="center">
 
-| Color | Hex | Meaning |
-|-------|-----|---------|
-| ![#1e3a8a](https://via.placeholder.com/20/1e3a8a/1e3a8a.png) Deep Navy | `#1e3a8a` | Foundation and Stability |
-| ![#1e40af](https://via.placeholder.com/20/1e40af/1e40af.png) Royal Blue | `#1e40af` | Depth and Professionalism |
-| ![#2563eb](https://via.placeholder.com/20/2563eb/2563eb.png) Primary Blue | `#2563eb` | Innovation and Technology |
-| ![#3b82f6](https://via.placeholder.com/20/3b82f6/3b82f6.png) Sky Blue | `#3b82f6` | Creativity and Inspiration |
-| ![#60a5fa](https://via.placeholder.com/20/60a5fa/60a5fa.png) Light Blue | `#60a5fa` | Clarity and Communication |
+| Color Sample | Name | Hex Code | Meaning |
+|:------------:|:-----|:--------:|:--------|
+| ![Deep Navy](https://via.placeholder.com/40x30/1e3a8a/ffffff?text=) | **Deep Navy** | `#1e3a8a` | Foundation and Stability |
+| ![Royal Blue](https://via.placeholder.com/40x30/1e40af/ffffff?text=) | **Royal Blue** | `#1e40af` | Depth and Professionalism |
+| ![Primary Blue](https://via.placeholder.com/40x30/2563eb/ffffff?text=) | **Primary Blue** | `#2563eb` | Innovation and Technology |
+| ![Sky Blue](https://via.placeholder.com/40x30/3b82f6/ffffff?text=) | **Sky Blue** | `#3b82f6` | Creativity and Inspiration |
+| ![Light Blue](https://via.placeholder.com/40x30/60a5fa/ffffff?text=) | **Light Blue** | `#60a5fa` | Clarity and Communication |
 
 </div>
 
