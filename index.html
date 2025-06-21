@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Yunmo World</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            background: #ffffff;
+            color: #1f2328;
+            min-height: 100vh;
+            padding: 16px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1012px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 16px;
+        }
+
+        .black-frame {
+            background-color: #2d2d2d;
+            padding: 24px;
+            border-radius: 8px;
+            margin: 16px 0;
+            border: 2px solid #3b82f6;
+            text-align: left;
+            box-shadow: 0 0 16px rgba(59, 130, 246, 0.3);
+        }
+
+        .welcome-header {
+            color: #ffffff;
+            font-size: 1.1em;
+            margin-bottom: 16px;
+            border: 1px solid #3b82f6;
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+            box-shadow: 0 0 8px rgba(59, 130, 246, 0.2);
+        }
+
+        .ascii-art {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.1;
+            color: #60a5fa;
+            white-space: pre;
+            margin: 16px 0;
+            text-align: left;
+            text-shadow:
+                /* 双实线勾线效果 */
+                -1px -1px 0px #1e3a8a,
+                1px -1px 0px #1e3a8a,
+                -1px 1px 0px #1e3a8a,
+                1px 1px 0px #1e3a8a,
+                -2px -2px 0px #1e40af,
+                2px -2px 0px #1e40af,
+                -2px 2px 0px #1e40af,
+                2px 2px 0px #1e40af,
+                /* 立体阴影效果 */
+                3px 3px 0px #2563eb,
+                4px 4px 0px #1e40af,
+                5px 5px 0px #1e3a8a,
+                6px 6px 10px rgba(30, 58, 138, 0.5);
+        }
+
+        .title-gradient {
+            color: #1f2328;
+            font-size: 2em;
+            font-weight: 600;
+            margin: 24px 0;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #3b82f6;
+            font-size: 1.2em;
+            font-weight: 500;
+            margin: 16px 0;
+            text-align: center;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin: 32px 0;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+            box-shadow: 0 4px 16px rgba(59, 130, 246, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(59, 130, 246, 0.3);
+        }
+
+        .feature-card h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .feature-card p {
+            color: #1e3a8a;
+            font-size: 1.1em;
+        }
+
+        .color-palette {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin: 32px 0;
+            flex-wrap: wrap;
+        }
+
+        .color-circle {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 3px solid white;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .color-circle:hover {
+            transform: scale(1.1);
+        }
+
+        .color-1 { background: #1e3a8a; box-shadow: 0 4px 15px rgba(30, 58, 138, 0.4); }
+        .color-2 { background: #1e40af; box-shadow: 0 4px 15px rgba(30, 64, 175, 0.4); }
+        .color-3 { background: #2563eb; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4); }
+        .color-4 { background: #3b82f6; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); }
+        .color-5 { background: #60a5fa; box-shadow: 0 4px 15px rgba(96, 165, 250, 0.4); }
+
+        .mission-section {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            padding: 32px;
+            border-radius: 12px;
+            color: white;
+            margin: 32px 0;
+            box-shadow: 0 8px 24px rgba(30, 64, 175, 0.25);
+        }
+
+        .mission-section h3 {
+            font-size: 1.5em;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        .mission-text {
+            font-size: 1.1em;
+            font-style: italic;
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
+        .mission-tagline {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .footer-section {
+            margin: 32px 0;
+            padding: 24px;
+            background: rgba(59, 130, 246, 0.08);
+            border-radius: 8px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .footer-title {
+            color: #3b82f6;
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .footer-subtitle {
+            color: #64748b;
+            font-size: 1em;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 8px;
+            }
+
+            .container {
+                padding: 0 8px;
+            }
+
+            .ascii-art {
+                font-size: 0.7em;
+            }
+
+            .title-gradient {
+                font-size: 1.5em;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .color-circle {
+                width: 40px;
+                height: 40px;
+            }
+
+            .black-frame {
+                padding: 16px;
+            }
+
+            .mission-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Black Frame Section -->
+        <div class="black-frame animate-fade-in">
+            <!-- Welcome Header -->
+            <div class="welcome-header">
+                ✱ Welcome to <strong>Yunmo World</strong>
+            </div>
+
+            <!-- ASCII Art Section -->
+            <div class="ascii-art">██    ██ ██    ██ ███    ██ ███    ███  ██████
+ ██  ██  ██    ██ ████   ██ ████  ████ ██    ██
+  ████   ██    ██ ██ ██  ██ ██ ████ ██ ██    ██
+   ██    ██    ██ ██  ██ ██ ██  ██  ██ ██    ██
+   ██     ██████  ██   ████ ██      ██  ██████
+
+██     ██  ██████  ██████  ██      ██████
+██     ██ ██    ██ ██   ██ ██      ██   ██
+██  █  ██ ██    ██ ██████  ██      ██   ██
+██ ███ ██ ██    ██ ██   ██ ██      ██   ██
+ ███ ███   ██████  ██   ██ ███████ ██████  </div>
+        </div>
+
+        <!-- Subtitle Section -->
+        <div class="subtitle animate-fade-in">
+            🌊 Dive into the Ocean of Possibilities 🌊
+        </div>
+
+        <div class="title-gradient animate-fade-in">
+            Yunmo World - Where Dreams Meet Reality
+        </div>
+
+        <!-- Features Section -->
+        <h2 style="color: #3b82f6; font-size: 2em; margin: 40px 0 20px 0;">🎨 Features</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card animate-fade-in">
+                <h3>🚀 Innovation</h3>
+                <p>Cutting-edge technology and creative solutions that push the boundaries of what's possible</p>
+            </div>
+            
+            <div class="feature-card animate-fade-in">
+                <h3>🌟 Excellence</h3>
+                <p>Striving for perfection in every detail, delivering quality that exceeds expectations</p>
+            </div>
+            
+            <div class="feature-card animate-fade-in">
+                <h3>🤝 Collaboration</h3>
+                <p>Building bridges between ideas and reality through teamwork and shared vision</p>
+            </div>
+        </div>
+
+        <!-- Color Palette Section -->
+        <h2 style="color: #3b82f6; font-size: 2em; margin: 40px 0 20px 0;">🌈 Color Palette</h2>
+        
+        <div class="color-palette">
+            <div class="color-circle color-1" title="Deep Navy - Foundation"></div>
+            <div class="color-circle color-2" title="Royal Blue - Depth"></div>
+            <div class="color-circle color-3" title="Primary Blue - Innovation"></div>
+            <div class="color-circle color-4" title="Sky Blue - Creativity"></div>
+            <div class="color-circle color-5" title="Light Blue - Clarity"></div>
+        </div>
+
+        <!-- Mission Section -->
+        <div class="mission-section animate-fade-in">
+            <h3>🎯 Mission Statement</h3>
+            <div class="mission-text">
+                "In Yunmo World, we believe that every line of code tells a story, every pixel paints a dream, and every interaction builds a bridge to the future."
+            </div>
+            <div class="mission-tagline">
+                ✨ Crafting digital experiences that inspire and empower ✨
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer-section animate-fade-in">
+            <div class="footer-title">
+                🌟 Welcome to Yunmo World - Where Innovation Meets Imagination 🌟
+            </div>
+            <div class="footer-subtitle">
+                Step into a realm of endless possibilities
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth scrolling and interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate elements on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all animated elements
+            document.querySelectorAll('.animate-fade-in').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Add click effects to color circles
+            document.querySelectorAll('.color-circle').forEach(circle => {
+                circle.addEventListener('click', function() {
+                    this.style.transform = 'scale(1.2)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1)';
+                    }, 200);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
