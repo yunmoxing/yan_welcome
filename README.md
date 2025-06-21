@@ -1,10 +1,6 @@
-<div style="background-color: #2d2d2d; padding: 24px; border-radius: 8px; margin: 16px 0; border: 2px solid #3b82f6; box-shadow: 0 0 16px rgba(59, 130, 246, 0.3);">
+# 🌟 Welcome to Yunmo World
 
-<div style="color: #ffffff; font-size: 1.1em; text-align: left; margin-bottom: 16px; border: 1px solid #3b82f6; padding: 8px 12px; border-radius: 6px; display: inline-block; box-shadow: 0 0 8px rgba(59, 130, 246, 0.2);">
-✱ Welcome to <strong>Yunmo World</strong>
-</div>
-
-<div style="color: #60a5fa; font-family: 'Courier New', monospace; font-size: 0.9em; line-height: 1.1; text-align: left; white-space: pre; text-shadow: -1px -1px 0px #1e3a8a, 1px -1px 0px #1e3a8a, -1px 1px 0px #1e3a8a, 1px 1px 0px #1e3a8a, -2px -2px 0px #1e40af, 2px -2px 0px #1e40af, -2px 2px 0px #1e40af, 2px 2px 0px #1e40af, 3px 3px 0px #2563eb, 4px 4px 0px #1e40af, 5px 5px 0px #1e3a8a, 6px 6px 10px rgba(30, 58, 138, 0.5);">
+```
 ██    ██ ██    ██ ███    ██ ███    ███  ██████
  ██  ██  ██    ██ ████   ██ ████  ████ ██    ██
   ████   ██    ██ ██ ██  ██ ██ ████ ██ ██    ██
@@ -16,74 +12,127 @@
 ██  █  ██ ██    ██ ██████  ██      ██   ██
 ██ ███ ██ ██    ██ ██   ██ ██      ██   ██
  ███ ███   ██████  ██   ██ ███████ ██████
-</div>
+```
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
 </div>
-
----
 
 ## 🌊 Dive into the Ocean of Possibilities
 
-**Yunmo World - Where Dreams Meet Reality**
+<div align="center">
+  <h3>🎯 Yunmo World - Where Dreams Meet Reality</h3>
+  <p><em>Step into a realm of endless possibilities</em></p>
+</div>
 
 ---
 
 ## 🎨 Features
 
+<table>
+<tr>
+<td align="center" width="33%">
+
 ### 🚀 Innovation
-Cutting-edge technology and creative solutions
+Cutting-edge technology and creative solutions that push the boundaries of what's possible
+
+</td>
+<td align="center" width="33%">
 
 ### 🌟 Excellence
-Striving for perfection in every detail
+Striving for perfection in every detail, delivering quality that exceeds expectations
+
+</td>
+<td align="center" width="33%">
 
 ### 🤝 Collaboration
-Building bridges between ideas and reality
+Building bridges between ideas and reality through teamwork and shared vision
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🌈 Color Palette
 
-Our blue-themed color scheme represents:
-- **Deep Navy (#1e3a8a)**: Foundation and Stability
-- **Royal Blue (#1e40af)**: Depth and Professionalism
-- **Primary Blue (#2563eb)**: Innovation and Technology
-- **Sky Blue (#3b82f6)**: Creativity and Inspiration
-- **Light Blue (#60a5fa)**: Clarity and Communication
+<div align="center">
+
+| Color | Hex | Meaning |
+|-------|-----|---------|
+| ![#1e3a8a](https://via.placeholder.com/20/1e3a8a/1e3a8a.png) Deep Navy | `#1e3a8a` | Foundation and Stability |
+| ![#1e40af](https://via.placeholder.com/20/1e40af/1e40af.png) Royal Blue | `#1e40af` | Depth and Professionalism |
+| ![#2563eb](https://via.placeholder.com/20/2563eb/2563eb.png) Primary Blue | `#2563eb` | Innovation and Technology |
+| ![#3b82f6](https://via.placeholder.com/20/3b82f6/3b82f6.png) Sky Blue | `#3b82f6` | Creativity and Inspiration |
+| ![#60a5fa](https://via.placeholder.com/20/60a5fa/60a5fa.png) Light Blue | `#60a5fa` | Clarity and Communication |
+
+</div>
 
 ---
 
 ## 🎯 Mission Statement
 
-*"In Yunmo World, we believe that every line of code tells a story, every pixel paints a dream, and every interaction builds a bridge to the future."*
+<div align="center">
 
-✨ Crafting digital experiences that inspire and empower ✨
+> *"In Yunmo World, we believe that every line of code tells a story, every pixel paints a dream, and every interaction builds a bridge to the future."*
+
+**✨ Crafting digital experiences that inspire and empower ✨**
+
+</div>
 
 ---
 
-## 📁 Files
+## 📁 Project Structure
 
-- `README.md` - This documentation file (GitHub optimized)
-- `index.html` - Rich HTML presentation with styling and animations
+```
+welcome/
+├── 📄 README.md          # This documentation file (GitHub optimized)
+└── 🌐 index.html         # Rich HTML presentation with styling and animations
+```
 
 ## 🔧 GitHub Interface Optimization
 
-This project has been optimized for GitHub's interface standards:
+<details>
+<summary><strong>📐 Design Specifications</strong></summary>
 
-### 📐 Design Specifications
 - **Container Width**: 1012px (GitHub's content width)
 - **Typography**: GitHub's system font stack
 - **Spacing**: 16px base unit (GitHub's design system)
 - **Colors**: GitHub-compatible color palette
 - **Responsive**: Mobile-first approach with GitHub breakpoints
 
-### 🎨 Visual Enhancements
-- **ASCII Art**: Double-outline effect with 3D shadows
-- **Compact Layout**: Optimized for README viewing
-- **Consistent Spacing**: Follows GitHub's design patterns
-- **Mobile Responsive**: Adapts to all screen sizes
+</details>
+
+<details>
+<summary><strong>🎨 Visual Enhancements</strong></summary>
+
+- **ASCII Art**: Clean monospace display in code blocks
+- **Badges**: GitHub-style status indicators
+- **Tables**: Organized color palette display
+- **Responsive Layout**: Adapts to all screen sizes
+- **Semantic HTML**: Proper heading hierarchy
+
+</details>
+
+## 🚀 Quick Start
+
+1. **View the README**: You're already here!
+2. **Open HTML Version**: Open `index.html` in your browser for the full interactive experience
+3. **Customize**: Modify colors, content, and styling to match your project
 
 ---
+
+<div align="center">
 
 **🌟 Welcome to Yunmo World - Where Innovation Meets Imagination 🌟**
 
 *Step into a realm of endless possibilities*
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](.)
+[![HTML](https://img.shields.io/badge/View-HTML_Version-blue?style=flat-square&logo=html5)](./index.html)
+
+</div>
